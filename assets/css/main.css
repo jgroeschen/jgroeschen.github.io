@@ -23,31 +23,21 @@ body {
     font-family: "Source Sans Pro", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-align: center;
     color: #031621;
     min-height: 100vh;
 }
-footer {
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-size: 17.5px;
-    color: white;
-    line-height: 75px;
-    position: absolute;
-    bottom: 0;
-}
 div.main {
-    width: 420px;
+    width: 425px;
     background-color: #f5f5f5;
-    border-radius: 15px;
+    border-radius: 2vh;
     text-align: center;
     box-sizing: border-box;
-    padding: 75px 25px;
+    padding: 75px 5px;
     display: inline-block;
     height: 520px;
-    margin-top: calc(((100vh - 565px) / 2));
+    margin-top: calc(((100vh - 520px) / 2));
 }
 div.main section.photo {
     height: 125px;
@@ -65,6 +55,7 @@ div.main section.info h1 {
     line-height: 50px;
     padding-top: 25px;
     padding-bottom: 10px;
+    padding-left: 0;
 }
 div.main section.info h2 {
     font-size: 20px;
@@ -97,15 +88,77 @@ div.main section.links a:hover svg path {
 
 @media only screen and (max-width: 444.44px) {
     div.main {
-        width: 90%;
+        width: 95vmin;
+        height: 116vmin;
+        padding: 15vmin 1vmin;
     }
     div.main section.info h1 {
-        font-size: clamp( .1rem, 6.5vw, 7vh);
+        font-size: clamp( .1rem, 7.75vw, 8vh);
+        line-height: 6.75vmin;
+    }
+    div.main section.info h2 {
+        font-size: clamp( .1rem, 4.5vw, 7vh);
+        line-height: 6.75vmin;
+    }
+    div.main section.photo img {
+        height: 28.5vmin;
+    }
+    div.main section.photo {
+        height: 28.5vmin;
+    }
+    div.main section.info {
+        height: 40vmin;
+    }
+    div.main section.links {
+        height: 15vmin;
+        padding-top: 1vmin;
+        padding-bottom: 1vmin;
+    }
+    div.main section.links a {
+        height: 6vmin;
+        margin: 0 2vmin;
+    }
+    div.main section.links a svg {
+        height: 10vmin;
+        width: 10vmin;
     }
 }
-@media only screen and (max-height: 653.88px) and (max-width: 444.44px) {
+@media only screen and (max-width: 767px) and (orientation:landscape) {
     div.main {
-        margin: 5vw 0;
-
+        width: 116vmin;
+        height: 95vmin;
+        padding: 5vmin 1vmin;
+        margin-top: 1vmin;
+    }
+    div.main section.info h1 {
+        font-size: clamp( .1rem, 7.75vw, 8vh);
+        line-height: 6.75vmin;
+    }
+    div.main section.info h2 {
+        font-size: clamp( .1rem, 4.5vw, 7vh);
+        line-height: 6.75vmin;
+    }
+    div.main section.photo img {
+        height: 28.5vmin;
+    }
+    div.main section.photo {
+        height: 28.5vmin;
+    }
+    div.main section.info {
+        height: 40vmin;
+    }
+    div.main section.links {
+        height: 15vmin;
+        padding-top: 1vmin;
+        padding-bottom: 1vmin;
+    }
+    div.main section.links a {
+        height: 6vmin;
+        margin: 0 2vmin;
+    }
+    div.main section.links a svg {
+        height: 10vmin;
+        width: 10vmin;
     }
 }
+
