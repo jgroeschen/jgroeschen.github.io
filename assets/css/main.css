@@ -13,6 +13,10 @@ body {
     text-align: center;
     color: #031621;
     min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: image-set(url(../img/bg.jpg) 1x,); /* fallback for unsupported browsers */
 }
 div.main {
     width: 425px;
@@ -74,6 +78,9 @@ div.main section.links a:hover svg path {
 }
 
 @media only screen and (max-width: 444.44px) and (orientation:portrait) {
+    body {
+        background-image: url(../img/bg_small.jpg);
+    }
     div.main {
         width: 95vmin;
         height: 116vmin;
@@ -112,6 +119,9 @@ div.main section.links a:hover svg path {
     }
 }
 @media only screen and (max-height: 550px) and (orientation:landscape) {
+    body {
+        background-image: url(../img/bg_small.jpg);
+    }
     div.main {
         width: 78vmin;
         height: 95vmin;
