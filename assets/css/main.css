@@ -87,7 +87,7 @@ div.main section.links a:hover svg path {
         padding: 15vmin 1vmin;
     }
     div.main section.info h1 {
-        font-size: clamp( .1rem, 7.75vw, 8vh);
+        font-size: clamp( .1rem, 7.25vw, 8vh);
         line-height: 6.75vmin;
     }
     div.main section.info h2 {
@@ -129,7 +129,7 @@ div.main section.links a:hover svg path {
         margin-top: 1vmin;
     }
     div.main section.info h1 {
-        font-size: clamp( .1rem, 6.75vmin, 8vh);
+        font-size: clamp( .1rem, 6.25vmin, 7vh);
         line-height: 6.75vmin;
     }
     div.main section.info h2 {
