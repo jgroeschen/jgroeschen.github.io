@@ -16,7 +16,7 @@ body::before {
 	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	filter: blur(8px);
+	filter: blur(0px);
 	transform: scale(1.2);
 }
 body {
