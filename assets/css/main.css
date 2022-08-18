@@ -44,6 +44,7 @@ div.main section.photo {
 }
 div.main section.photo img {
     height: 125px;
+    width: auto;
     border-radius: 50%;
 }
 div.main section.info {
@@ -102,6 +103,7 @@ div.main section.links a:hover svg path {
     }
     div.main section.photo img {
         height: 28.5vmin;
+        width: auto;
     }
     div.main section.photo {
         height: 28.5vmin;
@@ -140,6 +142,7 @@ div.main section.links a:hover svg path {
     }
     div.main section.photo img {
         height: 28.5vmin;
+        width: auto;
     }
     div.main section.photo {
         height: 28.5vmin;
