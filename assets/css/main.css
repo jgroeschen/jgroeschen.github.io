@@ -86,7 +86,7 @@ div.main section.links a:hover svg path {
     fill: #6599ab;
 }
 
-@media only screen and (max-width: 444.44px) {
+@media only screen and (max-width: 444.44px) and (orientation:portrait) {
     div.main {
         width: 95vmin;
         height: 116vmin;
@@ -123,19 +123,19 @@ div.main section.links a:hover svg path {
         width: 10vmin;
     }
 }
-@media only screen and (max-width: 767px) and (orientation:landscape) {
+@media only screen and (max-height: 550px) and (orientation:landscape) {
     div.main {
-        width: 116vmin;
+        width: 78vmin;
         height: 95vmin;
         padding: 5vmin 1vmin;
         margin-top: 1vmin;
     }
     div.main section.info h1 {
-        font-size: clamp( .1rem, 7.75vw, 8vh);
+        font-size: clamp( .1rem, 6.75vmin, 8vh);
         line-height: 6.75vmin;
     }
     div.main section.info h2 {
-        font-size: clamp( .1rem, 4.5vw, 7vh);
+        font-size: clamp( .1rem, 4.5vmin, 7vh);
         line-height: 6.75vmin;
     }
     div.main section.photo img {
