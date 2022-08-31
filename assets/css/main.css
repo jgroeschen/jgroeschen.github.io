@@ -5,10 +5,16 @@
 html {
   height: 100%;
 }
+@font-face{
+    font-family: "libertinus-mono";
+    src: url('../fonts/libertinusmono-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} 
 body {
-    font-family: "Source Sans Pro", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "libertinus-mono";
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 3px;
     text-align: center;
     color: #031621;
